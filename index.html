@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Înălțimea paginii pentru centrare verticală */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fundalul paginii */
+    }
+
+    .center-buttons {
+    text-align: center; /* Alinierea butoanelor la centru */
+    }
+
+.button {
+    display: inline-block;
+    background-color: #007BFF; /* Culoarea fundalului butonului */
+    color: white; /* Culoarea textului */
+    text-decoration: none; /* Elimină sublinierea */
+    padding: 15px 30px; /* Dimensiunea butonului */
+    margin: 10px; /* Spațiu între butoane */
+    border-radius: 5px; /* Colțuri rotunjite */
+    font-size: 18px; /* Dimensiunea textului */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Animație pe hover */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Culoare la hover */
+}
+
+.tourism-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tourism-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Image */
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Card Content */
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Card Footer */
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.card-price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.card-button {
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
+</style>
+
+<!-- <div class="header-section">
+    <div class="center-buttons">
+    <a href="#book-now" class="button">Book Now</a>
+    <a href="#about-us" class="button">About Us</a>
+    </div>
+</div> -->
+
+<div class="tourism-card">
+    <img src="" alt="Beautiful Destination" class="card-image">
+    <div class="card-content">
+        <h2 class="card-title">Tropical Paradise</h2>
+        <p class="card-description">
+            Experience the serene beaches and turquoise waters of this tropical haven. Perfect for a relaxing getaway.
+        </p>
+        <div class="card-footer">
+            <span class="card-price">$499</span>
+            <a href="#" class="card-button">Book Now</a>
+        </div>
+    </div>
+</div>    
+
+
+
+
+</body>
+</html>
